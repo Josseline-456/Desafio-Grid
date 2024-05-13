@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: opx;
+    
+
+    
+}
+
+
+.mainGrid {
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "menu section"
+    "footer footer"
+    
+    ;
+    grid-template-columns: 1fr 8fr;
+    height: 520px;
+    width: 100vw;
+  
+
+
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(14, 14, 133);
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+menu {
+    grid-area: menu;
+    background-color: rgb(226, 210, 210);
+    height: 140vh;
+}
+
+section {
+    grid-area: section;
+    background-color: rgb(226, 210, 210);
+    height: 140vh;
+    gap: 16px;
+}
+
+footer {
+    grid-area: footer;
+    background-color:white;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin:5px;
+     padding: 5px;
+
+}
+
+
+.productos {
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+margin: 10;
+padding: 10;
+}
+
+
+.productoItem {
+
+    flex-grow: 1;
+    width: 30%;
+    gap: 16px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+.btn{
+    color: white;
+    background-color:rgb(14, 14, 133);
+    justify-content: center;
+    align-content: center; 
+    width: 258px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 7px;
+    padding: 7px;
+}
+
+.descripcion{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 258px;
+}
+
+
+.img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+
+    width: 260px;
+    height:260px
+    
+}
+
+footer {
+    grid-area: footer;
+    background-color:white;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin:20px;
+     padding: 20px;
+
+}
+
+.container{
+    margin: 5px;
+    padding: 5px;
+}
